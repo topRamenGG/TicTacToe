@@ -8,7 +8,7 @@ print("TicTacToe v0.1 by Paul Sypnowich")
 
 #board generation and display methods
 def board_reset():
-	board=[]
+	board = []
 	for none in range(3):		
 		board.append(["+"] * 5)
 	return board
